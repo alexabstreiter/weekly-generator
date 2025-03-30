@@ -1,6 +1,7 @@
 # Discord Summary Bot
 
-A Discord bot that extracts messages from all channels over the last 7 days and uses OpenAI models to generate summaries, which are then printed to the console.
+A Discord bot that extracts messages from all channels over the last 7 days and updates from Pipedrive. Then it uses OpenAI models to generate summaries, which are then printed to the console and saved to Notion.
+<img width="1179" alt="Screenshot 2025-03-30 at 15 04 32" src="https://github.com/user-attachments/assets/f50c9d4a-cb46-49be-8603-f9e787f1d455" />
 
 ## Features
 
@@ -8,13 +9,15 @@ A Discord bot that extracts messages from all channels over the last 7 days and 
 - Properly handles threaded messages and organizes them hierarchically
 - Customizes prompts for different channel types (announcements, general, help, development, etc.)
 - Uses OpenAI models to generate comprehensive summaries
-- Prints summaries to the console
+- Prints summaries to the console and saves them to Notion
 
 ## Prerequisites
 
 - Python 3.8 or higher
 - A Discord bot token
 - An OpenAI API key 
+- A Pipedrive API key 
+- A Notion API key 
 
 ## Setup
 
